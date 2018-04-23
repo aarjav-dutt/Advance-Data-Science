@@ -1,7 +1,7 @@
-# Advance-Data-Science
+## Advance-Data-Science
 Project for INFO7390
 
-## Credit Card Fraud Detection
+# Credit Card Fraud Detection
 
 Collaborators: Shreya Jain, Harshini Mashruwala and Aarjav Dutt
 
@@ -9,7 +9,7 @@ College of Engineering
 
 Northeastern University
 
-Abstract
+## Abstract
 Credit-card fraud is a growing problem worldwide
 which costs billions of dollars per year. Advanced
 classification methods provide the ability to detect
