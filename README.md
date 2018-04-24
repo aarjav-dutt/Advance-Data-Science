@@ -37,3 +37,6 @@ various different additional features such as feature
 selection, under-over sampling of data,
 supervised-unsupervised modeling, scaling etc and
 note the accuracy.
+
+## References
+[1] Kaggle. Credit Card Fraud Detection [Online]. Available: https://www.kaggle.com/mlg-ulb/creditcardfraud/data
