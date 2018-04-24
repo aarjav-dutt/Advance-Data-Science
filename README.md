@@ -25,4 +25,4 @@ pip install -U imbalanced-learn
 
 
 ## References
-[1] Kaggle. Credit Card Fraud Detection [Online]. Available: https://www.kaggle.com/mlg-ulb/creditcardfraud/data
+[1] Dataset from Kaggle. Credit Card Fraud Detection [Online]. Available: https://www.kaggle.com/mlg-ulb/creditcardfraud/data
