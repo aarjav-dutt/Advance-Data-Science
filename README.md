@@ -9,34 +9,20 @@ College of Engineering
 
 Northeastern University
 
-## Abstract
-Credit-card fraud is a growing problem worldwide
-which costs billions of dollars per year. Advanced
-classification methods provide the ability to detect
-fraudulent transactions without disturbance of
-legitimate transactions and unnecessarily spent
-resources on fraud forensics for financial institutions.
-This paper discusses automated credit card fraud
-detection by means of machine learning. The aim of
-the project is to compare the results obtained by
-various classifiers (Logistic regression, Synthetic
-Minority Oversampling Technique (SMOTE),
-Random Forest) and also by various deep learning
-modeling techniques to achieve the maximum
-accuracy to predict fraudulent credit card
-transactions. We’ll be trying to scale and resample
-the imbalance dataset and find the best algorithms
-that identifies the unusual patterns that do not
-conform to expected behavior. One way to achieve
-this is by oversampling, which is adding copies of the
-under-represented class (better when you have little
-data). Another is UNDER-sampling, which deletes
-instances from the over-represented class (better
-when he have lots of data) We would be using
-various different additional features such as feature
-selection, under-over sampling of data,
-supervised-unsupervised modeling, scaling etc and
-note the accuracy.
+## Data Description 
+The datasets contains transactions made by credit cards in September 2013 by european cardholders. This dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807 transactions. The dataset is highly unbalanced, the positive class (frauds) account for 0.172% of all transactions.
+It contains only numerical input variables which are the result of a PCA transformation. Unfortunately, due to confidentiality issues, we cannot provide the original features and more background information about the data. Features V1, V2, ... V28 are the principal components obtained with PCA, the only features which have not been transformed with PCA are 'Time' and 'Amount'. Feature 'Time' contains the seconds elapsed between each transaction and the first transaction in the dataset. The feature 'Amount' is the transaction Amount, this feature can be used for example-dependant cost-senstive learning. Feature 'Class' is the response variable and it takes value 1 in case of fraud and 0 otherwise.
+
+## Installation required:
+1.	Tensor Flow : 
+Open Anaconda Prompt. Write the following command to install tensor flow:
+C:> conda create -n tensorflow python=3.5 
+Activate the conda environment by issuing the following command
+(tensorflow)C:> pip install --ignore-installed --upgrade tensorflow 
+2.	Smote oversampling:
+imbalanced-learn is currently available on the PyPi's repository and you can install it via pip:
+pip install -U imbalanced-learn
+
 
 ## References
 [1] Kaggle. Credit Card Fraud Detection [Online]. Available: https://www.kaggle.com/mlg-ulb/creditcardfraud/data
