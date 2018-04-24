@@ -15,12 +15,19 @@ It contains only numerical input variables which are the result of a PCA transfo
 
 ## Installation required
 1.	Tensor Flow : 
+
 Open Anaconda Prompt. Write the following command to install tensor flow:
+
 C:> conda create -n tensorflow python=3.5 
+
 Activate the conda environment by issuing the following command
+
 (tensorflow)C:> pip install --ignore-installed --upgrade tensorflow 
+
 2.	Smote oversampling:
+
 imbalanced-learn is currently available on the PyPi's repository and you can install it via pip:
+
 pip install -U imbalanced-learn
 
 
